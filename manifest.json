@@ -1,0 +1,20 @@
+{
+  "name": "Chromaphonie",
+  "short_name": "Chromaphonie",
+  "description": "Cinq personnages abstraits, visuels et sonores, à déplacer sur une scène artistique.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#120824",
+  "theme_color": "#120824",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

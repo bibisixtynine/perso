@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#130825"/>
+      <stop offset="55%" stop-color="#24144b"/>
+      <stop offset="100%" stop-color="#0a2134"/>
+    </linearGradient>
+    <radialGradient id="haloA" cx="35%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#ff7acb" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff7acb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloB" cx="72%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#6f88ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6f88ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloC" cx="50%" cy="76%" r="60%">
+      <stop offset="0%" stop-color="#31e1c7" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#31e1c7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7cf"/>
+      <stop offset="40%" stop-color="#ffd875"/>
+      <stop offset="75%" stop-color="#ff8a63"/>
+      <stop offset="100%" stop-color="#b03f73"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="178" cy="154" r="170" fill="url(#haloA)"/>
+  <circle cx="358" cy="170" r="190" fill="url(#haloB)"/>
+  <circle cx="258" cy="380" r="210" fill="url(#haloC)"/>
+
+  <g transform="translate(256 256)">
+    <circle r="96" fill="url(#core)" opacity="0.96"/>
+    <path d="M0-162L30-78L116-116L78-30L162 0L78 30L116 116L30 78L0 162L-30 78L-116 116L-78 30L-162 0L-78-30L-116-116L-30-78Z" fill="url(#core)"/>
+    <circle r="38" fill="#fff8de" opacity="0.88"/>
+    <circle cx="-34" cy="-12" r="12" fill="#4d2a48"/>
+    <circle cx="34" cy="-12" r="12" fill="#4d2a48"/>
+    <path d="M-34 34Q0 60 34 34" fill="none" stroke="#6b3850" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
